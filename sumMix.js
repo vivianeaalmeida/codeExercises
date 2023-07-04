@@ -23,4 +23,13 @@ function sumMix(x){
   }
   return result;
 }
+
+
+best practice:
+function sumMix(x){
+  return x.map(a => +a).reduce((a, b) => a + b);
+}
+
 */
+
+
